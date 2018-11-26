@@ -17,7 +17,7 @@ export default (Component) => styled(Component)`
   text-align: center;
   margin-top: 14px;
   font-weight: 500;
-  margin-left: 11px;
+  margin-left: 5px;
 }
 
 }
@@ -29,13 +29,19 @@ export default (Component) => styled(Component)`
 
 }
 
+.promotion-block:nth-child(1) .promotion-text-field {
+  letter-spacing: normal;
+  margin-left: 7px;
+}
+
 .promotion-block:nth-child(2) .promotion-text-field {
-  margin-left: -8px;
-  margin-top: 15px;
+  margin-left: 0px;
+  margin-top: 16px;
 }
 
 .promotion-block:nth-child(3) .promotion-text-field {
   margin-left: -5px;
+  letter-spacing: 0.4px;
   margin-top: 16px;
 }
 

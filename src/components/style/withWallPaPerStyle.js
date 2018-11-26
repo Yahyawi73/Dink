@@ -28,7 +28,7 @@ min-height: 150px;
 }
 
 .wallpaper-text-field {
-margin-left: 38px;
+margin-left: 36px;
 opacity: 0.5;
 color: #FFFFFF;
 font-size: 30px;
@@ -38,7 +38,7 @@ font-weight: bold;
 position: absolute;
 bottom: 0;
 left: 0;
-margin-bottom: 47px;
+margin-bottom: 44px;
 }
 
 .shop-now {

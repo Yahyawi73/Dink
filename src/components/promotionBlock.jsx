@@ -12,7 +12,7 @@ const Promotion = ({className}) => {
       </div>
       <div className="promotion-block">
         <div className="promotion-text-field">
-          $-9.95- UNLIMITED NEXT DAY DELIVERY FOR YEAR{' '}
+          $-9.95 - UNLIMITED NEXT DAY DELIVERY FOR 1 YEAR{' '}
           <span className="more-flech"> &nbsp; &#62; </span>
         </div>
       </div>

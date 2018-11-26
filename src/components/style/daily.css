@@ -29,19 +29,20 @@
 }
 
 .daily-menu ul li:first-child {
-  border-bottom: 2px solid  #1E2226;
+  border-bottom: 2px solid #1E2226;
   position: relative;
-  right: -9.55px;
+  right: 1.45px;
+  padding-bottom: 3px;
 }
 
 .daily-menu ul li:nth-child(6) {
   position: relative;
-  right: 4px;
+  right: 1px;
 }
 
 .daily-menu ul li:nth-child(5) {
   position: relative;
-  right: 3px;
+  right: 1px;
 }
 
 .daily-menu ul li:nth-child(7) {
@@ -60,7 +61,7 @@
   letter-spacing: 0.2px;
   line-height: 26px;
   font-weight: 500;
-  margin-right: 26px;
+  margin-right: 23px;
 }
 
 .menu-text:nth-child(6) {
@@ -73,13 +74,16 @@
   margin-left: 39px;
 }
 
-.card-block .card:nth-child(1) .landmark img {
-  height: 182px;
-  margin-top: 28px;
+.card-block .card .card-title {
+  margin-top: 16px;
 }
 
-.card-block .card:nth-child(1) .card-title p {
-  margin-top: 18px;
+.card-block .card .price {
+margin-top: 21px;
+}
+
+.card-block .card:nth-child(1)  .landmark img {
+  height: 180px;
   margin-left: 6px;
 }
 

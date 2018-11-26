@@ -51,6 +51,7 @@
   margin-top: -7px;
   letter-spacing: normal;
   margin-left: 26px;
+  margin-bottom: 25px;
 
 }
 
@@ -89,7 +90,8 @@
   font-size: 14px;
   line-height: 18px;
   text-align: center;
-  margin-bottom: 38px;
+  margin-bottom: 41px;
+  text-transform: uppercase;
 }
 
 .third-image-text {
@@ -102,11 +104,15 @@
 }
 
 .btn-exposition {
-  color: #1E2226;
-  font-size: 12px;
-  line-height: 15px;
-  text-align: center;
-  font-weight: 500;
+     color: #1E2226;
+    font-size: 12px;
+    line-height: 15px;
+    text-align: center;
+    font-weight: 500;
+    position: relative;
+    top: -1px;
+    padding: top;
+    padding-top: 13px;
 }
 
 .who-has-taken {
@@ -146,20 +152,21 @@
   line-height: 26px;
   font-weight: bold;
   margin-right: 24px;
+  text-align: center;
 }
 
 .menu-icon {
-  margin-right: 15px;
+  margin-right: 17px;
   width: 43px;
-  height: 43px;
-  border-radius: 50%;
-    /* background-color: red; */
+  height: 38px;
+  border-radius: 52%;
   border: 2px solid #fff;
   box-shadow: 0 0 0 5px transparent;
 }
 
-.menu-text-icon {
-  text-align: center;
+.menu-text-icon ul {
+  margin-top: 1px;
+  margin-right: -1px;
 }
 
 .menu-text-icon ul li {

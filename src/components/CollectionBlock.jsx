@@ -42,7 +42,7 @@ const Collection = () => {
             <div className="description-oldPrix"> $ 100.00</div>
             <div className="description-prix"> $ 70.00</div>
           </div>
-          <Slider>
+          <Slider className="collection-slider">
           <ul>
             <CercleDark />
             <Cercle />
