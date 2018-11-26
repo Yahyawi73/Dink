@@ -1,0 +1,208 @@
+.subHeader {
+  display: flex;
+  margin-bottom: 5px;
+}
+
+.dink-logo {
+  margin-right: -30px;
+  margin-left: 0px;
+  padding: 31px 41px;
+  padding-right: 48px;
+}
+
+.subHeader-menu {
+  display: none;
+}
+
+.subHeader-right-menu {
+  display: none;
+}
+
+.SubHeader-select {
+  position: relative;
+  float: left;
+  min-width: 10px;
+  margin-left: 13px;
+}
+
+select::-ms-expand {
+  display: none;
+}
+
+.SubHeader-select:after {
+  content: ">";
+  font: 17px "Consolas", monospace;
+  color: #1366da;
+  -webkit-transform: rotate(90deg);
+  -moz-transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  transform: rotate(90deg);
+  right: -0px;
+  top: 18px;
+  padding: 0 0 2px;
+  border-bottom: 0px solid #999;
+  position: absolute;
+  pointer-events: none;
+}
+
+
+.SubHeader-select select {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  display: block;
+  width: 100%;
+  max-width: 320px;
+  height: 50px;
+  float: right;
+  margin: 5px 0px;
+  padding: 0px 24px;
+  line-height: 1.75;
+  background-color: #ffffff;
+  background-image: none;
+  border: 0px solid #ffffff;
+  -ms-word-break: normal;
+  word-break: normal;
+  color: #1e2226;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+}
+
+
+.SubHeader-select:nth-child(1) {
+  margin-left: 22pxpx;
+}
+
+.SubHeader-select:nth-child(2) {
+   margin-left: 25px;
+}
+.SubHeader-select:nth-child(3) {
+  margin-left: 15px;
+}
+
+.SubHeader-select:nth-child(4) {
+  margin-left: 16px;
+}
+
+
+select:hover {
+  background-color: #ffffff !important;
+}
+
+.select-block {
+  margin-top: 16px;
+  margin-left: -8px;
+}
+
+.live {
+  margin-right: 71px;
+}
+
+.live-fitting {
+  height: 22px;
+  width: 152px;
+  color: #1E2226;
+  font-family: "Open Sans";
+  font-size: 14px;
+  font-style: italic;
+  font-weight: 800;
+  line-height: 22px;
+  padding-bottom: 6px;
+  border-bottom: 2px solid #1E2226;
+  line-height: 48px;
+}
+
+.eco {
+  color: #1E2226;
+  font-size: 16px;
+  letter-spacing: 2px;
+  line-height: 19px;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-top: 16px;
+  margin-right: 38px;
+}
+
+.eco-friendly {
+  color: #49d067;
+}
+
+.subHeader-right-block {
+  margin-left: auto;
+  margin-top: 22px;
+  display: flex;
+}
+
+.subHeader-right-block img {
+  margin-right: 39px;
+  margin-bottom: 21px;
+}
+
+@media only screen and (max-width: 780px) {
+  .select-block {
+    display: none;
+  }
+
+  .eco {
+    display: none;
+  }
+
+  .live-fitting {
+    display: none;
+  }
+
+  .subHeader-right-block {
+    display: none;
+  }
+
+  .dink-logo {
+    margin: auto;
+    margin-right: 216px;
+    padding-right: 49px;
+  }
+
+  .subHeader-menu {
+    display: block;
+    position: relative;
+    top: 34px;
+    right: -38px;
+    font-size: 27px;
+  }
+
+  .menu-search {
+    height: 20px;
+    margin-left: 60px;
+  }
+
+  .subHeader-right-menu {
+    display: block;
+    position: relative;
+    top: 34px;
+    left: -43px;
+  }
+
+  .menu-user-icon {
+    position: relative;
+    right: 16px;
+    height: 20px;
+    margin-right: 63px;
+  }
+
+  .menu-basket-icon {
+    position: relative;
+    right: 15px;
+    height: 20px;
+    margin-right: -18px;
+  }
+}
+
+@media only screen and (max-width: 650px) {
+  .menu-user-icon {
+    right: 51px;
+    margin-right: 0px;
+  }
+  .menu-search {
+    margin-left: 35px;
+}
+} 

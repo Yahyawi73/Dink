@@ -1,0 +1,300 @@
+.daily-block {
+  background-color: #F3F3F3;
+}
+
+.daily-deals {
+  color: #1E2226;
+  font-size: 24px;
+  font-weight: bold;
+  letter-spacing: 0.2px;
+  line-height: 29px;
+  text-align: center;
+  margin: auto;
+  padding-top: 64px;
+  margin-bottom: 27px;
+}
+
+.daily-menu {
+  margin-right: -7px;
+  text-align: center;
+}
+
+.daily-menu ul {
+  padding-left: 24px;
+  margin-bottom: -5px;
+}
+
+.daily-menu ul li {
+  display: inline-block;
+}
+
+.daily-menu ul li:first-child {
+  border-bottom: 2px solid  #1E2226;
+  position: relative;
+  right: -9.55px;
+}
+
+.daily-menu ul li:nth-child(6) {
+  position: relative;
+  right: 4px;
+}
+
+.daily-menu ul li:nth-child(5) {
+  position: relative;
+  right: 3px;
+}
+
+.daily-menu ul li:nth-child(7) {
+  position: relative;
+  right: 4px;
+}
+
+.daily-menu ul li:nth-child(8) {
+  position: relative;
+  right: 5px;
+}
+
+.menu-text {
+  color: #1E2226;
+  font-size: 16px;
+  letter-spacing: 0.2px;
+  line-height: 26px;
+  font-weight: 500;
+  margin-right: 26px;
+}
+
+.menu-text:nth-child(6) {
+  margin-right: 29px;
+}
+
+.card-block {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 39px;
+}
+
+.card-block .card:nth-child(1) .landmark img {
+  height: 182px;
+  margin-top: 28px;
+}
+
+.card-block .card:nth-child(1) .card-title p {
+  margin-top: 18px;
+  margin-left: 6px;
+}
+
+.card-block .card:nth-child(2) .landmark img {
+  height: 177px;
+}
+
+.card-block .card:nth-child(2) .card-title p {
+  margin-top: 17px;
+}
+
+.card-block .card:nth-child(3) .landmark img {
+  height: 207px;
+  position: relative;
+  bottom: 33px;
+  margin-top: 0;
+}
+
+.card-block .card:nth-child(4) .landmark img {
+  height: 183px;
+}
+
+.card-block .card:nth-child(5) .landmark img {
+  height: 192px;
+}
+
+.card-block .card:nth-child(6) .landmark img {
+  height: 148px;
+  margin-top: 52px;
+}
+
+.card-block .card:nth-child(7) .landmark img {
+  height: 148px;
+  margin-top: 52px;
+}
+
+.card-block .card:nth-child(8) .landmark img {
+  height: 192px;
+}
+
+.more-info-block {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.more-info-daily {
+  height: 18px;
+  min-width: 85px;
+  color: #1366da;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  font-size: 14px;
+  letter-spacing: 0.2px;
+  line-height: 18px;
+  margin-top: 44px;
+  margin-right: -8px;
+  margin-bottom: 80px;
+}
+
+@media only screen and (max-width: 780px) {
+  .daily-menu ul li:nth-child(2) {
+    position: relative;
+    left: 8px;
+  }
+  .daily-menu ul li:nth-child(3) {
+  position: relative;
+  left: 5px;
+  }
+  .daily-menu ul li:nth-child(4) {
+  position: relative;
+  left: 2px;
+  }
+  .daily-menu ul li:nth-child(5) {
+    position: relative;
+    right: 0px;
+}
+.daily-menu ul li:nth-child(7) {
+  position: relative;
+  right: -6px;
+  top: 4px;
+}
+.daily-menu ul li:nth-child(8) {
+  position: relative;
+  right: -1px;
+  top: 3px;
+}
+
+  .daily-menu {
+    margin-right: 26px;
+    text-align: center;
+ }
+
+ .daily-menu ul {
+  padding-left: 48px;
+  margin-bottom: 1px;
+}
+
+  .card-block {
+    margin-bottom: 112px;
+  }
+
+  .card-block .card:nth-child(1) .card-title p {
+    margin-top: -9px;
+  }
+
+  .card-block .card:nth-child(2) .card-title p {
+    margin-top: -10px;
+  }
+
+   .card-block .card:nth-child(3)  {
+    margin-top: 14px;
+  }
+  
+  .card-block .card:nth-child(4)  {
+    margin-top: 19px;
+  }
+
+  .card-block .card:nth-child(5)  {
+    display: none;
+  }
+  
+  .card-block .card:nth-child(6) {
+    display: none;
+  }
+  
+  .card-block .card:nth-child(7)  {
+    display: none;
+  }
+  
+  .card-block .card:nth-child(8) {
+    display: none;
+}
+
+.card-block .card{
+  margin-left: 8px;
+  margin-top: 39px;
+  margin-right: 21px;
+}
+.daily-deals {
+  padding-top: 64px;
+}
+.more-info-daily {
+display: none; 
+}
+
+}
+
+@media only screen and (max-width: 650px) {
+  .card-block .card:nth-child(1) {
+    width: 100%;
+  }
+  .card-block .card:nth-child(2) {
+    margin-top: 25px;
+    width: 100%;
+  }
+  .card-block .card:nth-child(3) {
+    display: none;
+  }
+  .card-block .card:nth-child(4) {
+    display: none;
+  }
+  .daily-deals {
+    padding-top: 47px;
+    margin-bottom: -14px;
+  }
+  .daily-menu  {
+    margin-right: 0;
+  }
+  .daily-menu ul li:first-child {
+    border-bottom: 2px solid #1E2226;
+    position: relative;
+    right: 3.45px;
+}
+.daily-menu ul li:nth-child(2) {
+  margin-top: 31px;
+  position: relative;
+  left: -5px;
+}
+.daily-menu ul li:nth-child(3) {
+  position: relative;
+  left: -8px;
+}
+.daily-menu ul li:nth-child(4) {
+  position: relative;
+  left: -11px;
+}
+.daily-menu ul li:nth-child(5) {
+  position: relative;
+  right: 14px;
+}
+.daily-menu ul li:nth-child(6) {
+  position: relative;
+  right: 17px;
+}
+.daily-menu ul li:nth-child(7) {
+  position: relative;
+  right: 7px;
+  top: 4px;
+}
+.daily-menu ul li:nth-child(8) {
+  position: relative;
+  right: 12px;
+  top: 3px;
+}
+.card-block .card:nth-child(1) .landmark img {
+  margin-top: 25px;
+  margin-right: 9px;
+  width: 96%;
+}
+.card-block .card:nth-child(1) .card-title p {
+  margin-left: -20px;
+}
+.card-block .card{
+  margin-right: 42px;
+  margin-left: 4px;
+}
+}

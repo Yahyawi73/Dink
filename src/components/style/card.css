@@ -1,0 +1,84 @@
+.card {
+  position: relative;
+  margin-top: 39px;
+  background-color: #F8F8F8;
+}
+
+.description {
+  width: 150px;
+  margin: auto;
+  margin-top: 57px;
+}
+
+.description-color {
+  color: #C6C6C6;
+  font-size: 14px;
+  letter-spacing: 0.2px;
+  line-height: 18px;
+  text-align: center;
+}
+
+.description-prix {
+  color: #1366DA;
+  font-size: 18px;
+  line-height: 22px;
+}
+
+.solde {
+  padding: 0.4em;
+  color: #FFFFFF;
+  font-size: 14px;
+  line-height: 18px;
+  text-align: center;
+  width: 4.5em;
+  display: block;
+  border-radius: 25px;
+  background-color: #EB3D15;
+  position: absolute;
+  top: -20%;
+  left: 75%;
+  z-index: 2;
+}
+
+.item {
+  position: relative;
+  top: 58%;
+  left: 48%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.description-title {
+  color: #1E2226;
+  font-size: 14px;
+  line-height: 18px;
+  margin-bottom: 18px;
+}
+
+.slider-style {
+  position: absolute;
+  bottom: 38px;
+  left: 40%;
+  transform: translateX(-50%);
+}
+
+.cercle-style {
+  display: inline-block;
+  height: 11px;
+  width: 11px;
+  border-radius: 10px;
+  margin-left: 18px;
+  background-color: #C6C6C6;
+}
+
+.cercle-style:first-child {
+  background-color: #737373;
+}
+
+.third-section {
+  flex-basis: 24%;
+  margin-top: 40px;
+  background-image: url('../assets/video.png');
+  background-repeat: no-repeat;
+  background-size: 100% 702px;
+}

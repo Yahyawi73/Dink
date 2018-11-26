@@ -1,0 +1,433 @@
+.collection {
+  width: 100%;
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+.first-section {
+  margin-top: 39px;
+  margin-left: 39px;
+  width: 47.2%;
+}
+
+.back-img {
+  -webkit-filter: blur(8px);
+ /* Safari 6.0 - 9.0 */
+  filter: grayscale(10%);
+  filter: blur(8px);
+  width: 100%;
+  position: relative;
+  top: 4px;
+}
+
+.man-img {
+  background-image: url('../assets/BitmapM.png');
+  background-repeat: no-repeat;
+  background-size: 100% 346px;
+  height: 342px;
+  width: 50%;
+}
+
+.women-img {
+  background-image: url('../assets/BitmapW.png');
+  background-repeat: no-repeat;
+  background-size: 100% 346px;
+  height: 341px;
+  width: 50%;
+}
+
+.shop {
+  color: #FFFFFF;
+  font-size: 14px;
+  line-height: 36px;
+  text-align: center;
+  margin: 0 auto;
+  align-items: center;
+}
+
+.shop-container {
+  padding: 135px 0;
+  text-align: center;
+}
+
+.gendre {
+  font-size: 26px;
+  font-weight: bold;
+  margin-top: -8px;
+}
+
+.back-block {
+  height: 334px;
+  background-image: url('../assets/back-blur.png');
+  background-repeat: no-repeat;
+  background-size: 100% 346px;
+}
+
+.back-text {
+  color: #FFFFFF;
+  font-size: 26px;
+  font-weight: 500;
+  line-height: 32px;
+  text-align: center;
+  padding-top: 106px;
+  margin-bottom: 2px;
+  letter-spacing: 0.2px;
+  margin-left: 9px;
+  margin-bottom: 4px;
+  word-spacing: -2px;
+}
+
+.summer {
+  padding-top: 0px;
+  margin-top: 0px;
+}
+
+.soft-sun {
+  padding-top: 0px;
+  font-weight: 500;
+  font-size: 14px;
+  margin-bottom: 20px;
+  margin-top: 0px;
+  text-transform: uppercase
+}
+
+.btn {
+  background: white;
+  padding: 10px 20px;
+  color: #1E2226;
+  width: 23%;
+  margin: auto;
+  height: 20px;
+}
+
+.btn-content {
+  text-transform: uppercase;
+  font-size: 12px;
+  line-height: 15px;
+  margin: auto;
+  font-weight: 500;
+  text-align: center;
+  position: relative;
+  left: 2px;
+  top: 6px;
+  letter-spacing: normal;
+}
+
+.man-women-block {
+  height: 334px;
+  display: flex;
+}
+
+.second-section {
+  flex-basis: 23.7%;
+  position: relative;
+  margin-top: 65px;
+  background-color: #F8F8F8;
+}
+
+.description {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  color: #737373;
+  font-size: 10px;
+  letter-spacing: 0.17px;
+  line-height: 24px;
+}
+
+.slider-style ul {
+  padding: 0;
+  margin-left: -13px;
+}
+
+.description-oldPrix {
+  text-decoration: line-through;
+  color: #88A7D4;
+  font-size: 14px;
+  line-height: 18px;
+  margin-bottom: 0px;
+  font-weight: 500;
+  margin-bottom: 0px;
+  margin-top: 14px;
+}
+
+.description-prix {
+  color: #1366DA;
+  font-size: 18px;
+  line-height: 22px;
+  margin-top: 2px;
+  margin-bottom: 8px;
+  font-weight: 500;
+}
+
+.solde {
+  padding: 0.4em;
+  color: #FFFFFF;
+  font-size: 14px;
+  line-height: 18px;
+  text-align: center;
+  width: 4.29em;
+  display: block;
+  border-radius: 25px;
+  background-color: #EB3D15;
+  margin-left: auto;
+  margin-top: 26px;
+  margin-right: 22px;
+
+}
+
+.item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.item img {
+  margin-top: 62px;
+}
+
+.description-title {
+  color: #1E2226;
+  font-size: 14px;
+  line-height: 18px;
+  font-weight: 500 !important;
+  text-transform: uppercase;
+  margin-bottom: 0px;
+  margin-top: 61px;
+  margin-left: 4px;
+}
+
+.slider-style {
+  justify-content: center;
+  display: flex;
+}
+
+.cercle-style {
+  display: inline-block;
+  height: 11px;
+  width: 11px;
+  border-radius: 10px;
+  margin-left: 18px;
+  background-color: #C6C6C6;
+}
+
+.cercle-style:first-child {
+  background-color: #737373;
+}
+
+.third-section {
+  flex-basis: 24%;
+  margin-top: 66px;
+  background-image: url('../assets/video.png');
+  background-repeat: no-repeat;
+  background-size: 100% 702px;
+  height: 675px;
+}
+
+.third-section img {
+  padding-top: 13.5rem;
+  padding-right: 115px;
+  padding-left: 115px;
+  margin-bottom: 40px;
+}
+
+.collection-title {
+  color: #FFFFFF;
+  font-size: 26px;
+  font-weight: bold;
+  letter-spacing: 0.4px;
+  line-height: 32px;
+  text-align: center;
+  width: 48%;
+  margin: auto;
+  margin-bottom: 9px;
+  margin-right: 92px;
+  margin-top: 3px;
+  word-spacing: -1.5px;
+}
+
+.collection-soutitle {
+  color: #FFFFFF;
+  font-size: 14px;
+  letter-spacing: 0.4px;
+  line-height: 18px;
+  text-align: center;
+  width: 65%;
+  margin: auto;
+  word-spacing: 3px;
+  margin-right: 63px;
+}
+
+@media only screen and (max-width: 780px) {
+  .collection {
+    flex-wrap: wrap;
+  }
+
+  .select-block {
+    display: none;
+  }
+
+  .eco {
+    display: none;
+  }
+
+  .live-fitting {
+    display: none;
+  }
+
+  .subHeader-right-block {
+    display: none;
+  }
+
+  .first-section {
+    margin-left: 44px;
+    width: 89%;
+  }
+
+  .second-section {
+    height: 348px;
+    flex-basis: 45%;
+    margin-top: 7px;
+    margin-left: 36px;
+  }
+
+  .third-section {
+    margin-top: 7px;
+    flex-basis: 42%;
+    margin-top: 7px;
+    height: 342px;
+    background-position-y: 37%;
+  }
+
+  .third-section img{
+  padding-top: 2.8rem;
+  }
+  
+  .solde {
+    position: relative;
+  }
+
+  .item img {
+    margin-top: -2px;
+    height: 217px;
+    margin-left: 17px;
+}
+
+.second-section .description {
+  position: absolute;
+  top: 134px;
+  left: 109px;
+}
+
+.slider-style {
+  position: relative;
+  top: 26px;
+  right: -21px;
+}
+
+.slider-style ul {
+  padding: 0;
+  margin-left: -48px;
+}
+
+.collection-title {
+  margin-top: -5px;
+  margin-right: 86px;
+}
+
+.btn{
+  position: relative;
+  top: 3px;
+  right: -1px;
+  width: 22%;
+}
+
+.btn-content {
+  position: relative;
+  left: -1px;
+  top: 3px;
+  letter-spacing: normal;
+}
+}
+
+ @media only screen and (max-width: 650px) {
+   .collection {
+    flex-wrap: wrap;
+   }
+
+  .second-section { 
+    height: 328px;
+    margin-top: -6px;
+  }
+  .first-section {
+    margin-left: 39px;
+    margin-top: 20px;
+}
+
+.back-text{
+  margin-right: 18px;
+  font-size: 21.42px;
+  padding-top: 85px;
+}
+.soft-sun {
+  margin-top: -14px;
+  padding-top: 0px;
+  font-size: 11.53px;
+}
+
+.first-section .btn {
+  position: relative;
+  top: 2px;
+  right: 2px;
+  width: 22%;
+  padding-top: 2px;
+}
+.btn-content {
+  left: -2px;
+    top: 6px;
+  font-size: 9.88px;
+}
+.man-img{
+  background-size: 108% 327px;
+  background-position: -21px;
+  height: 327px;
+}
+.women-img {
+  background-position: 1px;
+  height: 328px;
+}
+.third-section {
+  height: 329px;
+  margin-top: -7px;
+  flex-basis: 44.5%;
+}
+.item img {
+  margin-top: -19px;
+  margin-left: 6px;
+}
+.second-section .description {
+  position: absolute;
+  top: 114px;
+  left: 70px;
+}
+.third-section img {
+  width: 31%;
+  position: relative;
+  top: 13px;
+  left: -22px;
+}
+.collection-title {
+  margin-top: -10px;
+  margin-right: 60px;
+width: 62%;
+}
+.collection-soutitle {
+width: 92%;
+}
+.shop {
+  margin-top: -8px;
+}
+.item .solde {
+  margin-right: 16px;
+}
+} 

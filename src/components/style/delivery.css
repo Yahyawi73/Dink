@@ -1,0 +1,105 @@
+
+.delivery-content {
+  height: 180px;
+}
+
+.delivery-img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  margin-top: 35px;
+}
+
+.delivery-block {
+  height: 180px;
+  width: 94%;
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: stretch;
+  align-content: center;
+  background-image: url("../assets/dasded\ line.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 565.5px 95.83px;
+  margin-top: 0px;
+}
+
+.delivery-image-locator {
+  height: 26px;
+  width: 18.25px;
+  margin-top: 93px;
+  position: relative;
+  left: 13px;
+}
+
+.delivery-image-flag {
+  height: 26px;
+  width: 19.73px;
+  margin-top: 84px;
+  position: relative;
+  left: -5px;
+}
+
+.block-text {
+  height: 29px;
+  min-width: 365px;
+  color: #1e2226;
+  font-size: 24px;
+  font-weight: bold;
+  line-height: 29px;
+  margin-top: 64px;
+  margin-left: 116px;
+  margin-right: 62px;
+  letter-spacing: 0.25px;
+  word-spacing: -2.9px;
+  padding-right: 37px;
+}
+
+.more-info {
+  height: 18px;
+  min-width: 85px;
+  color: #1366da;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  font-size: 14px;
+  letter-spacing: 0.2px;
+  line-height: 18px;
+  margin-top: 16px;
+  display: flex;
+  justify-content: center;
+}
+
+@media only screen and (max-width: 780px) {
+  .block-text {
+    margin-top: 58px;
+    margin-right: 25px;
+  }
+  .delivery-block {
+    height: 174px;
+    background-position: 62% 41%;
+    background-size: 80%;
+  }
+  .delivery-image-flag {
+    left: 31px;
+    top: -8px;
+  }
+}
+
+@media only screen and (max-width: 650px) {
+  .block-text {
+    margin-top: 40px;
+    font-size: 22px;
+  }
+  .delivery-image-locator {
+    left: 52px;
+    margin-top: 72px;
+  }
+  .delivery-image-flag {
+    left: -16px;
+    top: -18px;
+}
+}
