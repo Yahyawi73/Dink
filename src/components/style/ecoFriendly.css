@@ -16,6 +16,12 @@
   margin-left: 37px;
 }
 
+.eco-card-block .card-title {
+  position: relative;
+  top: 0px;
+  right: -8px;
+}
+
 .eco-friendly-title {
   color: #FFFFFF;
   font-size: 26px;
@@ -44,7 +50,7 @@
   margin-top: -14px;
   }
   .eco-card-block .card:nth-child(1) {
-    margin-right: 20px;
+    margin-right: 23px;
     margin-left: 14px;
   }
 

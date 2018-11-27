@@ -10,6 +10,12 @@ export default (Component) => styled(Component)`
   padding-top: 1%;
 }
 
+.footer-list ul {
+  margin-top: 10px;
+  position: relative;
+  right: 5px;
+}
+
 .footer-list ul li {
   display: inline-block;
   margin-right: 29px;

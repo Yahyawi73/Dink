@@ -55,7 +55,7 @@ function daily() {
           soldeExist={false}
         />
         <Card
-          text={'WHATCH CAP BEANIE'}
+          text={'WATCH CAP BEANIE'}
           subText={'Wine'}
           price={'$30.00'}
           image={'./assets/blueCap.png'}

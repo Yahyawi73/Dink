@@ -1,7 +1,9 @@
 .daily-block {
   background-color: #F3F3F3;
 }
-
+.daily-slider {
+  display: none;
+}
 .daily-deals {
   color: #1E2226;
   font-size: 24px;
@@ -42,7 +44,7 @@
 
 .daily-menu ul li:nth-child(5) {
   position: relative;
-  right: 1px;
+  right: 0px;
 }
 
 .daily-menu ul li:nth-child(7) {
@@ -75,7 +77,7 @@
 }
 
 .card-block .card .card-title {
-  margin-top: 16px;
+  margin-top: 19px;
 }
 
 .card-block .card .price {
@@ -98,16 +100,38 @@ margin-top: 21px;
 .card-block .card:nth-child(3) .landmark img {
   height: 207px;
   position: relative;
-  bottom: 33px;
+  bottom: -17px;
   margin-top: 0;
+}
+
+.promotion-card {
+  margin-left: 0;
+    margin-top: 0;
+    margin-right: 0;
+    position: absolute;
+    right: 13px;
+    top: 23px;
 }
 
 .card-block .card:nth-child(4) .landmark img {
   height: 183px;
 }
 
+.card-block .card:nth-child(4)  .card-title {
+  margin-top: 16px;
+  position: relative;
+  right: -5px;
+}
+
 .card-block .card:nth-child(5) .landmark img {
   height: 192px;
+}
+
+.card-block .card:nth-child(5)  .card-title {
+  position: relative;
+  right: -3px;
+  top: 3px;
+  margin-bottom: 5px;
 }
 
 .card-block .card:nth-child(6) .landmark img {
@@ -115,13 +139,34 @@ margin-top: 21px;
   margin-top: 52px;
 }
 
+.card-block .card:nth-child(6)  .card-title {
+  position: relative;
+  right: -2px;
+  top: 3px;
+  margin-bottom: 5px;
+}
+
 .card-block .card:nth-child(7) .landmark img {
   height: 148px;
   margin-top: 52px;
 }
 
+.card-block .card:nth-child(7)  .card-title {
+  position: relative;
+  right: -1px;
+  top: 3px;
+  margin-bottom: 5px;
+}
+
 .card-block .card:nth-child(8) .landmark img {
   height: 192px;
+}
+
+.card-block .card:nth-child(8)  .card-title {
+  position: relative;
+  right: -1px;
+  top: 3px;
+  margin-bottom: 5px;
 }
 
 .more-info-block {
@@ -145,9 +190,21 @@ margin-top: 21px;
 }
 
 @media only screen and (max-width: 780px) {
+  .daily-slider {
+    display: block;
+  }
+  .card-block .card:nth-child(4) .card-title {
+    margin-top: -1x;
+}
+  .daily-menu ul li:first-child {
+    border-bottom: 2px solid #1E2226;
+    position: relative;
+    right: -1.55px;
+    padding-bottom: 3px;
+}
   .daily-menu ul li:nth-child(2) {
     position: relative;
-    left: 8px;
+    left: 5px;
   }
   .daily-menu ul li:nth-child(3) {
   position: relative;
@@ -161,10 +218,14 @@ margin-top: 21px;
     position: relative;
     right: 0px;
 }
+.daily-menu ul li:nth-child(6) {
+  position: relative;
+  right: -2px;
+}
 .daily-menu ul li:nth-child(7) {
   position: relative;
-  right: -6px;
-  top: 4px;
+  right: -4px;
+  top: 1px;
 }
 .daily-menu ul li:nth-child(8) {
   position: relative;
@@ -183,7 +244,7 @@ margin-top: 21px;
 }
 
   .card-block {
-    margin-bottom: 112px;
+    margin-bottom: 117px;
   }
 
   .card-block .card:nth-child(1) .card-title p {
@@ -195,11 +256,11 @@ margin-top: 21px;
   }
 
    .card-block .card:nth-child(3)  {
-    margin-top: 14px;
+    margin-top: 24px;
   }
   
   .card-block .card:nth-child(4)  {
-    margin-top: 19px;
+    margin-top: 24px;
   }
 
   .card-block .card:nth-child(5)  {
@@ -220,8 +281,9 @@ margin-top: 21px;
 
 .card-block .card{
   margin-left: 8px;
-  margin-top: 39px;
+  margin-top: 33px;
   margin-right: 21px;
+  height: 350px;
 }
 .daily-deals {
   padding-top: 64px;
@@ -229,10 +291,10 @@ margin-top: 21px;
 .more-info-daily {
 display: none; 
 }
-
 }
 
 @media only screen and (max-width: 650px) {
+
   .card-block .card:nth-child(1) {
     width: 100%;
   }

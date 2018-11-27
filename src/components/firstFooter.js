@@ -59,15 +59,9 @@ function firstFooter() {
             <option> USA </option>
           </select>
         </div>
-        {/* <div className="footer-bank-carte">
-          <img src="./assets/iconBank/americanExpress.png" alt="" />
-          <img src="./assets/iconBank/delta.png" alt="" />
-          <img src="./assets/iconBank/dk.png" alt="" />
-          <img src="./assets/iconBank/mastea.png" alt="" />
-          <img src="./assets/iconBank/masterCard.png" alt="" />
-          <img src="./assets/iconBank/paypal.jpg" alt="" />
-          <img src="./assets/iconBank/visa.png" alt="" />
-        </div> */}
+     <div className="footer-bank-carte">
+          <img src="./assets/cards icons.png" alt="" />
+        </div>
       </div>
     </div>
   );

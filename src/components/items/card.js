@@ -7,10 +7,9 @@ import PromotionSticker from '../styledComponents/PromotionSticker';
 function card({image, text, subText, price, soldeExist}){
   return(
 <div className="card">
-  <div className="card-mark">
-  
-    <div className="landmark">
-   {soldeExist && <PromotionSticker>-30%</PromotionSticker>} 
+{soldeExist && <PromotionSticker className="promotion-card">-30%</PromotionSticker>}
+  <div className="card-mark"> 
+    <div className="landmark">  
       <img src={image} alt=""></img>
     </div>
   </div>

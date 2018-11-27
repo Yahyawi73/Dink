@@ -1,5 +1,8 @@
 import React from 'react';
 import withWallPaPerStyle from './style/withWallPaPerStyle';
+import Slider from './styledComponents/Slider';
+import CercleDark from './styledComponents/CercleDark';
+import Cercle from './styledComponents/Cercle';
 
 const WallPaper = ({className}) => {
   return (
@@ -15,6 +18,14 @@ const WallPaper = ({className}) => {
           fall winter '16 preview denim <div className="select-selector" />
           <div className="shop-now"><p>SHOP NOW</p></div>
         </div>
+        <Slider className="wallpaper-slider">
+          <ul>
+            <CercleDark />
+            <Cercle />
+            <Cercle />
+            <Cercle />
+          </ul>
+        </Slider>
     </div>
       <div className="section">
         <div className="wallpaper-text-field">

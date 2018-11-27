@@ -13,5 +13,6 @@ background-color: #EB3D15;
 margin-left: auto;
 margin-top: 26px;
 margin-right: 22px;
+z-index: 2;
 `;
 export default PromorionSticker;

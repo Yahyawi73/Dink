@@ -29,7 +29,7 @@ function exposition() {
             years after its cinematic release,
             <br /> clueless, the music has been
           </p>
-          <p className="it-time">26 JUNE 2016</p>
+          <p className="it-time date-time">26 JUNE 2016</p>
           <div className="slider-style third-image-slider">
             <ul>
               <li className="cercle-style " />

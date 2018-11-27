@@ -26,7 +26,9 @@ border-right: 1px solid #FFFFFF;
 position: relative;
 min-height: 150px;
 }
-
+.wallpaper-slider {
+  display: none;
+}
 .wallpaper-text-field {
 margin-left: 36px;
 opacity: 0.5;
@@ -61,7 +63,12 @@ left: 0;
 @media only screen and (max-width: 780px) {
   min-height: 769.41px;
   background-position: 8%;
-
+  .wallpaper-slider {
+    display: block;
+    position: absolute;
+    bottom: 50px;
+    left: 46%;
+  }
 .section:nth-child(1)  {
   display: none;
 }

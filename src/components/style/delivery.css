@@ -72,6 +72,10 @@
   display: flex;
   justify-content: center;
 }
+.delivery-block .more-info {
+  position: relative;
+  right: 5px;
+}
 
 @media only screen and (max-width: 780px) {
   .block-text {
