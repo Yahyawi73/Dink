@@ -2,7 +2,6 @@
   margin-top: 65px;
   margin-right: 40px;
   margin-left: 40px;
-
 }
 
 .exposition-first-section {
@@ -11,7 +10,7 @@
 }
 
 .first-image {
-  background-image: url('../assets/Pic.png');
+  background-image: url('/assets/Pic.png');
   background-size: 100% 100%;
   background-repeat: no-repeat;
   height: 341px;
@@ -141,6 +140,7 @@
 .third-image-slider {
   position: relative;
   bottom: -4px;
+  left: 49%;
 }
 
 .last-news {
@@ -259,7 +259,20 @@
   }
   .third-image-slider {
     top: 5px;
-    right: -10px;
+    left: 54%;
+  }
+  .exposition-text {
+    padding-top: 102px;
+    margin-top: 0;
+  }
+  .menu-text-icon ul li:nth-child(3) {
+    position: relative;
+    left: 4px;
+  
+  }
+  .menu-text-icon ul li:nth-child(4) {
+    position: relative;
+    left: 5px;
   }
 }
 
@@ -268,11 +281,25 @@
     margin-top: -17px;
   }
   .exposition-text {
-    margin-top: 85px;
+    padding-top: 0;
+    margin-top: 83px;
   }
   .btn-exposition {
-display: none;
+    display: block;
+    color: #FFFFFF;
+    height: 14px;
+    width: 148px;
+    border: 2px solid #FFFFFF;
+    background-color: transparent;
+    text-transform: uppercase;
+    font-size: 12px;
+    line-height: 15px;
+
   }
+  .soft-sun-expo {
+    margin-bottom: 37px;
+  }
+
   .exposition-btn {
     top: -1px;
     right: -182px;
@@ -282,19 +309,25 @@ display: none;
     height: 320px;
   }
   .forth-image {
-    height: 329px;
+    height: 325px;
   }
   .forth-item-text {
-    margin-top: 7px;
+    margin-bottom: 18px;
+    margin-top: -3px;
+
   }
   .fifth-image {
     height: 320px;
   }
   .last-news {
-    margin-top: 29px;
+    margin-top: 25px;
   }
   .third-image-slider {
     top: 17px;
-    right: -18px;
+    left: 56%;
+  }
+  .who-has-taken {
+    margin-top: 36px;
+    margin-left: 1px;
   }
 }

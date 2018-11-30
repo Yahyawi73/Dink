@@ -4,8 +4,7 @@ import Slider from './styledComponents/Slider';
 import CercleDark from './styledComponents/CercleDark';
 import Cercle from './styledComponents/Cercle';
 
-const WallPaper = ({className}) => {
-  return (
+const WallPaper = ({ className }) => (
     <div className={className}>
       <div className="section">
         <div className="wallpaper-text-field">
@@ -43,6 +42,5 @@ const WallPaper = ({className}) => {
       </div>
     </div>
   );
-}
 
 export default withWallPaPerStyle(WallPaper);

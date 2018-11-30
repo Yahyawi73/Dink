@@ -1,7 +1,6 @@
 import React from 'react';
 import'./style/collection.css';
 
-//styled component 
 import Button from './styledComponents/Button';
 import Slider from './styledComponents/Slider';
 import CercleDark from './styledComponents/CercleDark';
@@ -15,7 +14,7 @@ const Collection = () => {
         <div className="back-block">
           <p className="back-text">SUNWASHED SHADES <br /> OF SUMMER</p>
           <p className="back-text soft-sun">the soft sun collection essentials</p>
-          <Button><p className="btn-content">VIEW THE SELECTION</p></Button>
+          <Button className="collection-button"><p className="btn-content">VIEW THE SELECTION</p></Button>
         </div>
         <div className="man-women-block">
           <div className="women-img">

@@ -1,9 +1,11 @@
 .daily-block {
   background-color: #F3F3F3;
 }
+
 .daily-slider {
   display: none;
 }
+
 .daily-deals {
   color: #1E2226;
   font-size: 24px;
@@ -77,11 +79,11 @@
 }
 
 .card-block .card .card-title {
-  margin-top: 19px;
+  margin-top: 16px;
 }
 
 .card-block .card .price {
-margin-top: 21px;
+  margin-top: 21px;
 }
 
 .card-block .card:nth-child(1)  .landmark img {
@@ -106,11 +108,11 @@ margin-top: 21px;
 
 .promotion-card {
   margin-left: 0;
-    margin-top: 0;
-    margin-right: 0;
-    position: absolute;
-    right: 13px;
-    top: 23px;
+  margin-top: 0;
+  margin-right: 0;
+  position: absolute;
+  right: 13px;
+  top: 23px;
 }
 
 .card-block .card:nth-child(4) .landmark img {
@@ -192,175 +194,234 @@ margin-top: 21px;
 @media only screen and (max-width: 780px) {
   .daily-slider {
     display: block;
+    position: relative;
+    bottom: 83px;
+    left: 8%;
+    top: -44px;
   }
+
   .card-block .card:nth-child(4) .card-title {
     margin-top: -1x;
-}
+  }
+
   .daily-menu ul li:first-child {
     border-bottom: 2px solid #1E2226;
     position: relative;
     right: -1.55px;
     padding-bottom: 3px;
-}
+  }
+
   .daily-menu ul li:nth-child(2) {
     position: relative;
     left: 5px;
   }
+
   .daily-menu ul li:nth-child(3) {
-  position: relative;
-  left: 5px;
+    position: relative;
+    left: 5px;
   }
+
   .daily-menu ul li:nth-child(4) {
-  position: relative;
-  left: 2px;
+    position: relative;
+    left: 4px;
   }
+
   .daily-menu ul li:nth-child(5) {
     position: relative;
-    right: 0px;
-}
-.daily-menu ul li:nth-child(6) {
-  position: relative;
-  right: -2px;
-}
-.daily-menu ul li:nth-child(7) {
-  position: relative;
-  right: -4px;
-  top: 1px;
-}
-.daily-menu ul li:nth-child(8) {
-  position: relative;
-  right: -1px;
-  top: 3px;
-}
+    right: -4px;
+  }
+
+  .daily-menu ul li:nth-child(6) {
+    position: relative;
+    right: -2px;
+  }
+
+  .daily-menu ul li:nth-child(7) {
+    position: relative;
+    right: -4px;
+    top: 1px;
+  }
+
+  .daily-menu ul li:nth-child(8) {
+    position: relative;
+    right: -3px;
+    top: 0px;
+  }
 
   .daily-menu {
     margin-right: 26px;
     text-align: center;
- }
+  }
 
- .daily-menu ul {
-  padding-left: 48px;
-  margin-bottom: 1px;
-}
+  .daily-menu ul {
+    padding-left: 48px;
+    margin-bottom: 1px;
+  }
 
   .card-block {
-    margin-bottom: 117px;
+    margin-bottom: 78px;
   }
 
   .card-block .card:nth-child(1) .card-title p {
-    margin-top: -9px;
+    margin-top: -4px;
+    margin-right: -5px;
   }
 
   .card-block .card:nth-child(2) .card-title p {
-    margin-top: -10px;
+    margin-top: -4px;
   }
 
-   .card-block .card:nth-child(3)  {
-    margin-top: 24px;
-  }
-  
-  .card-block .card:nth-child(4)  {
+  .card-block .card:nth-child(3) {
     margin-top: 24px;
   }
 
-  .card-block .card:nth-child(5)  {
+  .card-block .card:nth-child(4) {
+    margin-top: 24px;
+  }
+
+  .card-block .card:nth-child(5) {
     display: none;
   }
-  
+
   .card-block .card:nth-child(6) {
     display: none;
   }
-  
-  .card-block .card:nth-child(7)  {
+
+  .card-block .card:nth-child(7) {
     display: none;
   }
-  
+
   .card-block .card:nth-child(8) {
     display: none;
-}
+  }
 
-.card-block .card{
-  margin-left: 8px;
-  margin-top: 33px;
-  margin-right: 21px;
-  height: 350px;
-}
-.daily-deals {
-  padding-top: 64px;
-}
-.more-info-daily {
-display: none; 
-}
+  .card-block .card {
+    margin-left: 8px;
+    margin-top: 33px;
+    margin-right: 21px;
+    height: 350px;
+  }
+
+  .daily-deals {
+    padding-top: 64px;
+  }
+
+  .more-info-daily {
+    display: none;
+  }
 }
 
 @media only screen and (max-width: 650px) {
+  .daily-menu ul {
+    padding-left: 37px;
+    margin-bottom: 1px;
+  }
+
+  .card-block {
+    margin-bottom: 89px;
+  }
 
   .card-block .card:nth-child(1) {
     width: 100%;
   }
+
   .card-block .card:nth-child(2) {
-    margin-top: 25px;
-    width: 100%;
-  }
-  .card-block .card:nth-child(3) {
     display: none;
   }
+
+  .card-block .card:nth-child(3) {
+    display: block;
+    margin-top: 25px;
+    width: 100%;
+    height: 352px;
+  }
+  .card-block .card:nth-child(3) .promotion-card {
+    right: 129px;
+    top: 26px;
+  }
+
   .card-block .card:nth-child(4) {
     display: none;
   }
+
   .daily-deals {
-    padding-top: 47px;
+    padding-top: 58px;
     margin-bottom: -14px;
   }
-  .daily-menu  {
+
+  .daily-menu {
     margin-right: 0;
   }
+
   .daily-menu ul li:first-child {
     border-bottom: 2px solid #1E2226;
     position: relative;
     right: 3.45px;
-}
-.daily-menu ul li:nth-child(2) {
-  margin-top: 31px;
-  position: relative;
-  left: -5px;
-}
-.daily-menu ul li:nth-child(3) {
-  position: relative;
-  left: -8px;
-}
-.daily-menu ul li:nth-child(4) {
-  position: relative;
-  left: -11px;
-}
-.daily-menu ul li:nth-child(5) {
-  position: relative;
-  right: 14px;
-}
-.daily-menu ul li:nth-child(6) {
-  position: relative;
-  right: 17px;
-}
-.daily-menu ul li:nth-child(7) {
-  position: relative;
-  right: 7px;
-  top: 4px;
-}
-.daily-menu ul li:nth-child(8) {
-  position: relative;
-  right: 12px;
-  top: 3px;
-}
-.card-block .card:nth-child(1) .landmark img {
-  margin-top: 25px;
-  margin-right: 9px;
-  width: 96%;
-}
-.card-block .card:nth-child(1) .card-title p {
-  margin-left: -20px;
-}
-.card-block .card{
-  margin-right: 42px;
-  margin-left: 4px;
-}
+  }
+
+  .daily-menu ul li:nth-child(2) {
+    margin-top: 31px;
+    position: relative;
+    left: -5px;
+  }
+
+  .daily-menu ul li:nth-child(4) {
+    position: relative;
+    left: -4px;
+  }
+
+  .daily-menu ul li:nth-child(5) {
+    position: relative;
+    right: 3px;
+  }
+
+  .daily-menu ul li:nth-child(6) {
+    position: relative;
+    right: 4px;
+  }
+
+  .daily-menu ul li:nth-child(7) {
+    position: relative;
+    right: 5px;
+    top: 4px;
+  }
+
+  .daily-menu ul li:nth-child(8) {
+    position: relative;
+    right: 6px;
+    top: 3px;
+  }
+
+  .card-block .card:nth-child(1) .landmark img {
+    margin-top: 25px;
+    margin-right: 9px;
+    width: 96%;
+    height: 188px;
+  }
+
+  .card-block .card:nth-child(1) .card-title p {
+    margin-top: -7px;
+    margin-left: -1px;
+  }
+
+  .card-block .card {
+    margin-right: 42px;
+    margin-left: 4px;
+  }
+
+  .card-block .card .card-title {
+    margin-top: 22px;
+  }
+
+  .daily-slider {
+    display: block;
+    position: relative;
+    bottom: 53px;
+    left: 10%;
+    top: -52px;
+  }
+  .daily-menu ul li:nth-child(3) {
+    position: relative;
+    left: -3px;
+  }
 }

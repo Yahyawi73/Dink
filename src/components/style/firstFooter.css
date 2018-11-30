@@ -96,7 +96,7 @@
   
   @media only screen and (max-width: 780px) {
     .footer {
-      margin-top: 117px;
+      margin-top: 122px;
     }
 
     .footer-about-item {
@@ -104,7 +104,7 @@
     }
   
     .footer-about {
-      padding-top: 42px;
+      padding-top: 41px;
       margin-left: -54px;
     }
     .footer-shopping {
@@ -144,8 +144,28 @@
   }
 
   @media only screen and (max-width: 650px) {
+    .footer-shopping {
+      display: flex;
+      margin-bottom: 9px;
+    }
     .footer-shopping-select select {
-      width: 148px;
-
+      width: 178px;
+    }
+    .footer {
+      margin-top: 98px;
+    }
+    .footer-bank-carte {
+      position: relative;
+      left: 93px;
+    }
+    .footer-bank-carte img {
+      width: 97%;
+    }
+    .footer-shopping-select p {
+      width: 45%;
+    }
+    .footer-about {
+      padding-top: 37px;
+      margin-left: -35px;
     }
   }

@@ -2,7 +2,9 @@
 .delivery-content {
   height: 180px;
 }
-
+.delivery-sticker {
+  display: none
+}
 .delivery-img {
   display: block;
   margin-left: auto;
@@ -94,9 +96,14 @@
 }
 
 @media only screen and (max-width: 650px) {
+  .delivery-block {
+    height: 161px;
+  }
   .block-text {
     margin-top: 40px;
     font-size: 22px;
+    padding-right: 22px;
+    letter-spacing: 0.25px;
   }
   .delivery-image-locator {
     left: 52px;
@@ -105,5 +112,12 @@
   .delivery-image-flag {
     left: -16px;
     top: -18px;
+}
+.more-info {
+  display: none;
+}
+.delivery-sticker {
+  right: -118px;
+  top: 20px;
 }
 }

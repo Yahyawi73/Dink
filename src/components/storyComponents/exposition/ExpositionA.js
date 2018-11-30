@@ -1,42 +1,39 @@
 import React from 'react';
-import './style/exposition.css';
-import Button from './styledComponents/Button';
+import '../../style/exposition.css';
+import Button from '../../styledComponents/Button';
+import Slider from '../../styledComponents/Slider';
+import CercleDark from '../../styledComponents/CercleDark';
+import Cercle from '../../styledComponents/Cercle';
 
-function exposition() {
+const exposition = ({backgroundImage, secondSectionPub, description, SecondSectionParagraph,SecondSectionDetails, thirdSectionBackground, fifthImage, lastImage}) => {
   return (
     <div className="exposition">
       <div className="exposition-first-section">
-        <div className="first-image" />
+        <div className="first-image" style={{backgroundImage: `url("${backgroundImage}")`}}/>
         <div className="seconde-image">
           <p className="exposition-text">
-            TOP 8 
-            STREET STYLE TRENDS:
-            <br /> SPRING 2018
+          {secondSectionPub}
           </p>
-          <p className="soft-sun-expo">the soft sun collection essentials</p>
+          <p className="soft-sun-expo">{description}</p>
           <Button className="btn-exposition">VIEW THE TOP</Button>
           <div className="shop-now exposition-btn"><p>VIEW THE TOP</p></div>
         </div>
-        <div className="third-image">
+        <div className="third-image" style={{background: `${thirdSectionBackground}`}}>
           <p className="last-news">LAST NEWS</p>
           <p className="who-has-taken">
-            "WHO HAS TAKEN
-            <br /> BYONCE'S CROWN"
+            "{SecondSectionParagraph}"
           </p>
           <p className="it-time">
-            IT's time "totally pause", as twenty
-            <br />
-            years after its cinematic release,
-            <br /> clueless, the music has been
+            {SecondSectionDetails}
           </p>
           <p className="it-time date-time">26 JUNE 2016</p>
-          <div className="slider-style third-image-slider">
-            <ul>
-              <li className="cercle-style " />
-              <li className="cercle-style " />
-              <li className="cercle-style " />
-            </ul>
-          </div>
+          <Slider className="slider-style third-image-slider">
+          <ul>
+            <CercleDark />
+            <Cercle />
+            <Cercle />
+          </ul>
+        </Slider>
         </div>
 
         <div className="forth-image">
@@ -59,9 +56,9 @@ function exposition() {
           </div>
         </div>
 
-        <div className="fifth-image" />
+        <div className="fifth-image" style={{backgroundImage: `url("${fifthImage}")`}}/>
 
-        <div className="sixth-image">
+        <div className="sixth-image" style={{backgroundImage: `url("${lastImage}")`}}>
           <div className="button-vers-top" />
         </div>
       </div>

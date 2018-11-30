@@ -1,8 +1,12 @@
 import React from 'react';
 import './style/daily.css';
 import Card from './items/card';
+import Slider from './styledComponents/Slider';
+import CercleDark from './styledComponents/CercleDark';
+import Cercle from './styledComponents/Cercle';
 
-function daily() {
+
+const daily = () => {
   return (
     <div className="daily-block">
       <div className="daily-deals">DAILY DEALS</div>
@@ -81,6 +85,15 @@ function daily() {
           MORE DEALS
           <span className="more-flech"> &nbsp; &#62; </span>
         </div>
+        <Slider className="daily-slider">
+          <ul>
+            <CercleDark />
+            <Cercle />
+            <Cercle />
+            <Cercle />
+            <Cercle />
+          </ul>
+        </Slider>
       </div>
     </div>
   );

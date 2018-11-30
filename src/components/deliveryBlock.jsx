@@ -1,5 +1,6 @@
 import React from 'react';
 import './style/delivery.css';
+import Sticker from './styledComponents/PromotionSticker';
 
 function delivery() {
   return (
@@ -11,6 +12,7 @@ function delivery() {
           MORE INFO
           <span className="more-flech"> &nbsp; &#62; </span>
         </div>
+        <Sticker className="delivery-sticker">MORE</Sticker>
       </div>
 
       <img className="delivery-image-flag" src={'./assets/Fill 4.svg'} alt="" />

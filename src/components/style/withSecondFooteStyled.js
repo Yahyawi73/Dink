@@ -61,11 +61,15 @@ export default (Component) => styled(Component)`
 }
 
 @media only screen and (max-width: 650px) {
-  .footer {
-    margin-top: 89px;
-}
 .footer-shopping {
   margin-top: -4px;
+}
+.footer-list {
+  padding-top: 36px;
+}
+.footer-list ul {
+  margin-left: 0px;
+  margin-top: 0px;
 }
 }
 `;

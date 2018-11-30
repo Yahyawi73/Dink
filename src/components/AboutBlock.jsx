@@ -1,5 +1,6 @@
 import React from 'react';
 import './style/aboutStyle.css';
+import Sticker from './styledComponents/PromotionSticker';
 
 const About = () => {
   return (
@@ -17,7 +18,9 @@ const About = () => {
           MORE INFO
           <span className="more-flech"> &nbsp; &#62; </span>
         </div>
+        <Sticker className="info-sticker">MORE</Sticker>
       </div>
+      
     </div>
   );
 }
